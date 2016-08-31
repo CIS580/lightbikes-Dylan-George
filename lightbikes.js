@@ -88,7 +88,7 @@ function loop(timestamp)
 	
 	context.clearRect(0, 0, canvas.width, canvas.height);
 	
-	context.drawImage(image, 0, 30, canvas.width, canvas.height);
+	context.drawImage(image, 0, 0, canvas.width, canvas.height);
 	for(i = 0; i < 1000; i++)
 	{
 		context.fillStyle = "blue";
